@@ -2,6 +2,7 @@ from langchain_community.chat_models import ChatOpenAI
 from typing import Optional
 import os
 
+
 class Selector(ChatOpenAI):
     openai_api_base: str
     openai_api_key: str
