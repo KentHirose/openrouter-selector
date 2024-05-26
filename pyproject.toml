@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "openrouter-selector"
+version = "0.1.0"
+description = "LLM connection using OpenRouter with a single library."
+authors = [
+    { name = "kent" }
+]
+
+[project.dependencies]
+langchain = "*"
+
+[tool.setuptools.packages.find]
+where = ["openrouter-selector"]
+
