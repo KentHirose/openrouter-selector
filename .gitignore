@@ -1,1 +1,2 @@
-ignore
+dist
+src/openrouter_selector.egg-info
